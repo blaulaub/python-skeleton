@@ -1,4 +1,4 @@
-# A skeleton project for python
+# A Skeleton Project for Python
 
 This project tries to capture and represent the current best practice
 for Python project layout.
@@ -12,8 +12,9 @@ make them easier to fix.
 
 ## License
 
-This project comes with a permissive license. For your own project,
-you may want choose a more restrictive license...
+This project comes with a permissive [license](LICENSE). For your
+own project, you may want to replace that file with something better
+suited.
 
 ## Pipfile
 
