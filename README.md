@@ -15,6 +15,25 @@ make them easier to fix.
 This project comes with a permissive license. For your own project,
 you may want choose a more restrictive license...
 
+## Pipfile
+
+This project uses the `pipenv` tool for project management, and
+[Pipfile](Pipfile) is its masterfile. `Pipfile` is also a replacement
+for `requirements.txt` when `pipenv` is used.
+
+The `pipenv`/`Pipfile` take care of
+- dependency specification (wildcard or fixed) and tracking
+  (using an additional `Pipfile.lock` file)
+- setting up a `venv` virtual environment with required packages
+- shortcuts to run scripts in that environment (useful for build
+  targets like `test`)
+
+Note:
+
+- if you don't continue from this project but want to setup a pristine
+  project, `pipenv --python 3.9` (or whatever the target version is)
+  will create a `Pipfile` in your present folder
+
 # Reading Material
 
 Some ressources and reading material has been taken into consideration,
